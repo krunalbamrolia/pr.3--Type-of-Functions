@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Return-function</title>
+</head>
+<body>
+    <script>
+        // 1
+        // return function
+        function addNum(a, b) {
+         return a + b;
+        }
+
+        var result = addNum(2, 3);   // Call the function
+
+        document.write("first program :"+result+"<br>");  // Display the result 
+
+        // 2
+        // return function
+        function checkNum(num) {
+        if (num >= 10) {
+            return "Number is greater than 10.";
+        } else {
+            return "Number is less than or equal to 10.";
+        }
+        }
+
+        var result = checkNum(15);  // Call the function
+        document.write("second program :"+result);   // Display the result
+
+    </script>
+</body>
+</html>
