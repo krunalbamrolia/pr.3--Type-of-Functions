@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>without-return-function</title>
+</head>
+<body>
+    <script>
+        let result = 0;
+
+        function calculateSum(a, b) {
+        result = a + b;  // Modifying global variable
+        }
+
+            calculateSum(3, 4);  //Call the function
+            document.write(result);  //Display the result
+
+    </script>
+</body>
+</html>
+
